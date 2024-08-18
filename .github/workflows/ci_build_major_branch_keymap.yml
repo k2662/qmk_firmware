@@ -5,7 +5,7 @@ permissions:
   actions: write
 
 on:
-  [workflow_call]
+  [push]
 
 jobs:
   generate_targets:
