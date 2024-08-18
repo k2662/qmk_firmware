@@ -5,17 +5,7 @@ permissions:
   actions: write
 
 on:
-  workflow_call:
-    inputs:
-      branch:
-        type: string
-        required: true
-      keymap:
-        type: string
-        required: true
-      slice_length:
-        type: string
-        required: true
+  [workflow_call]
 
 jobs:
   generate_targets:
