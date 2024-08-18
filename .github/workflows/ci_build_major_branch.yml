@@ -27,7 +27,7 @@ concurrency:
 jobs:
   determine_concurrency:
     name: "Determine concurrency"
-    if: github.repository == 'qmk/qmk_firmware'
+    if: github.repository == 'k2662/qmk_firmware'
     runs-on: ubuntu-latest
     container: ghcr.io/qmk/qmk_cli
 
